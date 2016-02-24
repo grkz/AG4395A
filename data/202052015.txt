@@ -1,0 +1,30 @@
+Cele:
+-> "zszycie" dekad
+-> sprawdzenie skalowania siê poziomu gêstoœci widomwej wraz z Vrms generatora
+-> sprawdzenie szumów w³asnych generatora
+
+Szum bia³y:
+
+noise20mV - 20mVrms z generatora x 300
+noise15mV - 15mVrms z generatora x 300
+noise10mV - 10mVrms z generatora x 300
+noise9mV - 9Vrms z generatora x 300
+noise8mV - 8mVrms z generatora x 300
+noise7mV - 7mVrms z generatora x 300
+noise6_09mV - 6.09mVrms z generatora x 300
+
+noise0mV - zwarcie przez 50 ohm x 300
+
+6.09 mV rms - najni¿sza wartoœæ skuteczna szumu bia³ego dla hp33120A
+
+
+
+Ustawienia:
+analyzer type: spectrum
+format: noise
+V
+
+sweep type list
+start stop bw points
+1kHz 10kHz 100Hz 100
+10kHz 100kHz 1kHz 100
